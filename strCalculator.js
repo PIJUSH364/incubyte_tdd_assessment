@@ -1,7 +1,14 @@
 function add(numbers) {
     if (numbers === "") return 0;
+
+    let total = 0;
     const parts = numbers.split("");
-    return parseInt(parts[0])
+
+    parts.forEach(ele => {
+        total += ele
+    });
+
+    return total
 
 }
 
