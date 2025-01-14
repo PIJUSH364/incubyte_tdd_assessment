@@ -5,7 +5,7 @@ function add(numbers) {
     const parts = numbers.split("");
 
     parts.forEach(ele => {
-        total += ele
+        total += parseInt(ele)
     });
 
     return total
